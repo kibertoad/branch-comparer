@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Checkout multiple git branches, execute scripts and return to the origin branch.",
   "main": "index.js",
+  "private": false,
   "scripts": {
     "format": "prettier ./*.js --write",
     "test:ci:legacy": "",
@@ -21,7 +22,7 @@
     "branchcmp": "./index.js"
   },
   "author": "Dustin Deus <deusdustin@gmail.com> (http://www.starptech.de)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.3.0",
     "commander": "^2.11.0",
