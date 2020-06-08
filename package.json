@@ -1,6 +1,6 @@
 {
   "name": "@kibertoad/branch-comparer",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "Checkout multiple git branches, execute scripts and return to the origin branch.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "minor": "np minor --yolo",
     "major": "np major --yolo"
   },
-  "keywords": [
+  "keywords":[
     "git",
     "branch",
     "checkout",
